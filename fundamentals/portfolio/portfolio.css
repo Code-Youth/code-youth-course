@@ -1,0 +1,98 @@
+* {
+    font-family: sans-serif;  
+  }
+  
+  body {
+    background-color: #D6FFF1; 
+    padding-left: 3%;
+  }
+  
+  #shade_background {
+    #background-color: #ADFFE4
+  }
+  
+  h1 {
+    font-size: 50px;
+    padding-right: 300px
+  }
+  
+  h2 {
+    font-size: 30px;
+    float: left
+  }
+  
+  p {
+    font-size: 25px;
+    width: 50%;
+    float:left;
+    padding: 15px
+  }
+   
+  img {
+    float:right;
+    padding:20px;
+  }
+  
+  #contact_section {
+    margin: 30px;
+    width=10px;
+    display: none;
+  }
+  #portfolio_section {
+    display: none;
+    font-size: 40px
+  }
+  #skills_section {
+    display: none
+  }
+  
+  .contact_button {
+      width: 80px;
+      height: 80px;
+      left: 100px;
+      top: 100px;
+      margin: 10px;
+      border: #00A36D;
+      background-color: #C2FFEB;
+      border-width: 5px;
+      border-style: solid;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      padding-left: 60px;
+      padding-right: 50px;
+      float:left;
+  }
+  
+  .contact_button:hover {
+      opacity: 50%;
+  }
+  
+  #nav_bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  #nav_bar li {
+    font-size: 24px;
+    float: left;
+    background-color: #333;
+  }
+  
+  #nav_bar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  #nav_bar li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  #nav_bar .active {
+    background-color: #4CAF50;
+  }
